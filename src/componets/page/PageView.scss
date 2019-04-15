@@ -1,0 +1,209 @@
+.PageView {
+  min-width: 970px;
+
+  .textarea {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+
+    .edit {
+      font-size: 80px;
+      text-align: center;
+      line-height: 1.2;
+      letter-spacing: 1px;
+      transition: all 0.4s ease;
+    }
+  }
+
+  .fontG {
+    font-size: 0.88rem;
+    text-align: right;
+  }
+
+  .controls {
+    margin-top: 20px;
+    text-align: center;
+
+    .div {
+      display: inline-block;
+      vertical-align: middle;
+
+      &.fchoice {
+        position: relative;
+
+        .fontS {
+          padding: 6px 8px 2px 13px;
+          font-size: 0.91rem;
+          border: 1px solid #000;
+
+          &:hover {
+            color: #fff;
+            background-color: #000;
+          }
+
+          svg {
+            width: 24px;
+            height: auto;
+          }
+        }
+
+        .poa {
+          position: absolute;
+          left: 0;
+          top: 33px;
+          z-index: 1;
+          width: 100%;
+          padding: 10px;
+          background-color: #000;
+
+          li {
+            button {
+              display: block;
+              width: 100%;
+              padding: 3px;
+              font-size: 0.9rem;
+              color: #fff;
+              text-align: left;
+
+              &:hover {
+                color: #999;
+              }
+            }
+          }
+        }
+      }
+      &.space {
+        button {
+          margin: 0 5px;
+          border: 1px solid #000;
+
+          svg {
+            width: 32px;
+            height: auto;
+          }
+
+          &:hover {
+            background-color: #000;
+
+            svg {
+              color: #fff;
+            }
+          }
+        }
+      }
+      &.height {
+        .fs {
+          display: inline-block;
+          margin: 0 5px 0 15px;
+          font-size: 0.88rem;
+          font-weight: bold;
+
+          i {
+            svg {
+              width: 36px;
+              height: auto;
+            }
+            &.etc {
+              transform: rotate(90deg);
+            }
+          }
+        }
+      }
+    }
+
+    .blet {
+      &.s1 {
+        margin: 0 16px 0 21px;
+      }
+      &.s2 {
+        margin: 0 0 0 16px;
+      }
+    }
+
+    .rc-slider {
+      display: inline-block;
+      width: 120px;
+      padding-top: 8px;
+
+      .rc-slider-track {
+        height: 1px;
+        margin-top: 1px;
+        background-color: #000;
+      }
+      .rc-slider-rail {
+        height: 1px;
+        margin-top: 1px;
+        background-color: #000;
+      }
+      .rc-slider-handle {
+        border: 3px solid #000;
+      }
+    }
+  }
+  .btns {
+    margin-top: 20px;
+    text-align: center;
+
+    > div {
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+
+      button {
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin: 0 2px;
+        font-size: 0.88rem;
+        color: #000;
+
+        svg {
+          width: 25px;
+          height: auto;
+        }
+
+        &:hover {
+          padding: 4px;
+          border: 1px solid #000;
+        }
+      }
+
+      .poa {
+        position: absolute;
+        top: -200px;
+        z-index: 1;
+      }
+
+      &.f {
+        .poa {
+          left: -230px;
+        }
+      }
+      &.c {
+        .poa {
+          right: -230px;
+        }
+      }
+    }
+    a {
+      display: inline-block;
+      padding: 3px 5px;
+      margin: 0 5px;
+      font-size: 0.88rem;
+      color: #000;
+      vertical-align: middle;
+
+      span {
+        border-bottom: 1px solid #000;
+      }
+
+      &:hover {
+        span {
+          border-bottom: 2px solid #000;
+        }
+      }
+    }
+  }
+}

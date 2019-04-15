@@ -1,0 +1,38 @@
+{
+  "name": "free-fonts",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jeoungGyy.github.io/free-fonts",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-sass": "^4.11.0",
+    "rc-slider": "^8.6.9",
+    "react": "^16.8.6",
+    "react-color": "^2.17.0",
+    "react-contenteditable": "^3.2.6",
+    "react-dom": "^16.8.6",
+    "react-icons-kit": "^1.3.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "gh-pages": "^2.0.1"
+  }
+}

@@ -1,0 +1,7 @@
+.FontList {
+  padding: 20px;
+}
+.list {
+  display: flex;
+  flex-flow: row wrap;
+}

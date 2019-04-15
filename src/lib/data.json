@@ -1,0 +1,275 @@
+{
+  "fonts": [
+    {
+      "id": 1,
+      "name": "나눔고딕",
+      "nameEng": "Nanum Gothic",
+      "description": "네이버 나눔 글꼴",
+      "css": "@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');",
+      "html": "<link href='https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800' rel='stylesheet'>",
+      "style": "font-family: 'Nanum Gothic', sans-serif;",
+      "weight": ["Regular 400", "Bold 700", "Extra-Bold 800"],
+      "download": "https://hangeul.naver.com/2017/nanum",
+      "license": "https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497"
+    },
+    {
+      "id": 2,
+      "name": "나눔명조",
+      "nameEng": "Nanum Myeongjo",
+      "description": "네이버 나눔 글꼴",
+      "css": "@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800');",
+      "html": "<link href='https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800' rel='stylesheet'>",
+      "style": "font-family: 'Nanum Myeongjo', serif;",
+      "weight": ["Regular 400", "Bold 700", "Extra-Bold 800"],
+      "download": "https://hangeul.naver.com/2017/nanum",
+      "license": "https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497"
+    },
+    {
+      "id": 3,
+      "name": "나눔바른고딕",
+      "nameEng": "NanumBarunGothic",
+      "description": "네이버 나눔 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/NanumBarunGothic.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/NanumBarunGothic.css' rel='stylesheet'>",
+      "style": "font-family: 'NanumBarunGothic', 'Sans-serif';",
+      "weight": ["Light 200", "Regular 300", "Bold 500", "Extra-Bold 700"],
+      "download": "https://hangeul.naver.com/2017/nanum",
+      "license": "https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497"
+    },
+    {
+      "id": 4,
+      "name": "나눔스퀘어",
+      "nameEng": "NanumSquare",
+      "description": "네이버 나눔 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/NanumSquare.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/NanumSquare.css' rel='stylesheet'>",
+      "style": "font-family: 'NanumSquare', 'Sans-serif';",
+      "weight": ["Light 300", "Regular 400", "Bold 700", "Extra-Bold 800"],
+      "download": "https://hangeul.naver.com/2017/nanum",
+      "license": "https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497"
+    },
+    {
+      "id": 5,
+      "name": "고도체",
+      "nameEng": "Godo",
+      "description": "고도와 윤디자인에서 만든 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/Godo.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/Godo.css' rel='stylesheet'>",
+      "style": "font-family: 'Godo', 'Sans-serif';",
+      "weight": ["Regular 500", "Bold 700"],
+      "download": "http://www.godo.co.kr/company/godofont.php",
+      "license": "http://www.godo.co.kr/company/godofont.php"
+    },
+    {
+      "id": 6,
+      "name": "본고딕",
+      "nameEng": "NotoSansCJKkr",
+      "description": "어도비, 구글에서 만든 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/NotoSansCJKkr.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/NotoSansCJKkr.css' rel='stylesheet'>",
+      "style": "font-family: 'NotoSansCJKkr', 'Sans-serif';",
+      "weight": [
+        "Thin 100",
+        "Light 200",
+        "DemiLight 300",
+        "Regular 400",
+        "Medium 500",
+        "bold 700",
+        "Black 900"
+      ],
+      "download": "https://www.google.com/get/noto/#sans-kore",
+      "license": "https://www.google.com/get/noto/"
+    },
+    {
+      "id": 7,
+      "name": "청소년체",
+      "nameEng": "Youth",
+      "description": "여성가족부와 한국청소년활동진흥원에서 배포한 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/Youth.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/Youth.css' rel='stylesheet'>",
+      "style": "font-family: 'Youth', 'Sans-serif';",
+      "weight": ["Regular 400"],
+      "download": "https://www.kywa.or.kr/about/about08.jsp",
+      "license": "https://www.kywa.or.kr/about/about08.jsp"
+    },
+    {
+      "id": 8,
+      "name": "함초롱돋움",
+      "nameEng": "HANDotum",
+      "description": "한글과컴퓨터에서 배포한 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/HANDotum.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/HANDotum.css' rel='stylesheet'>",
+      "style": "font-family: 'HANDotum', 'Sans-serif';",
+      "weight": ["Regular 500", "bold 700"],
+      "download": "https://www.hancom.com/cs_center/csDownload.do",
+      "license": "https://www.hancom.com/cs_center/csDownload.do"
+    },
+    {
+      "id": 9,
+      "name": "함초롱바탕",
+      "nameEng": "HANBatang",
+      "description": "한글과컴퓨터에서 배포한 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/HANBatang.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/HANBatang.css' rel='stylesheet'>",
+      "style": "font-family: 'HANBatang', 'Sans-serif';",
+      "weight": ["Regular 500", "bold 700"],
+      "download": "https://www.hancom.com/cs_center/csDownload.do",
+      "license": "https://www.hancom.com/cs_center/csDownload.do"
+    },
+    {
+      "id": 10,
+      "name": "스포카 한 산스",
+      "nameEng": "Spoqa Han Sans",
+      "description": "스포카에서 만든 오픈소스 글꼴",
+      "css": "@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');",
+      "html": "<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet'>",
+      "style": "font-family: 'Spoqa Han Sans', 'Sans-serif';",
+      "weight": ["Thin 100", "Light 300", "Regular 400", "bold 700"],
+      "download": "https://spoqa.github.io/spoqa-han-sans/ko-KR/",
+      "license": "https://spoqa.github.io/spoqa-han-sans/ko-KR/"
+    },
+    {
+      "id": 11,
+      "name": "한겨레결체",
+      "nameEng": "Hankyoreh",
+      "description": "한겨레신문에서 배포한 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/Hankyoreh.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/Hankyoreh.css' rel='stylesheet'>",
+      "style": "font-family: 'Hankyoreh', 'Sans-serif';",
+      "weight": ["Regular 500"],
+      "download": "http://nuri.hani.co.kr/hanisite/dev/board/listbody.html?h_gcode=board&h_code=91&po_no=11411",
+      "license": "http://nuri.hani.co.kr/hanisite/dev/board/listbody.html?h_gcode=board&h_code=91&po_no=11411"
+    },
+    {
+      "id": 12,
+      "name": "수화명조",
+      "nameEng": "SHMyungjo",
+      "description": "정수화 폰트연구소에서 개발한 글꼴",
+      "css": "@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/SHMyungjo.css');",
+      "html": "<link href='//cdn.rawgit.com/young-ha/webfont-archive/master/css/SHMyungjo.css' rel='stylesheet'>",
+      "style": "font-family: 'SHMyungjo', 'Sans-serif';",
+      "weight": ["Thin 100", "Regular 400"],
+      "download": "http://font.jungle.co.kr/",
+      "license": "http://font.jungle.co.kr/"
+    }
+  ],
+  "text": [
+    {
+      "id": 1,
+      "text": "국가는 법률이 정하는 바에 의하여 재외국민을 보호할 의무를 진다."
+    },
+    {
+      "id": 2,
+      "text": "헌법재판소는 법관의 자격을 가진 9인의 재판관으로 구성하며, 재판관은 대통령이 임명한다."
+    },
+    {
+      "id": 3,
+      "text": "대통령의 임기는 5년으로 하며, 중임할 수 없다."
+    },
+    {
+      "id": 4,
+      "text": "국회의원은 국회에서 직무상 행한 발언과 표결에 관하여 국회외에서 책임을 지지 아니한다."
+    },
+    {
+      "id": 5,
+      "text": "원장은 국회의 동의를 얻어 대통령이 임명하고, 그 임기는 4년으로 하며, 1차에 한하여 중임할 수 있다."
+    },
+    {
+      "id": 6,
+      "text": "대한민국은 통일을 지향하며, 자유민주적 기본질서에 입각한 평화적 통일 정책을 수립하고 이를 추진한다."
+    },
+    {
+      "id": 7,
+      "text": "대통령은 국무총리·국무위원·행정각부의 장 기타 법률이 정하는 공사의 직을 겸할 수 없다."
+    },
+    {
+      "id": 8,
+      "text": "국채를 모집하거나 예산외에 국가의 부담이 될 계약을 체결하려 할 때에는 정부는 미리 국회의 의결을 얻어야 한다."
+    },
+    {
+      "id": 9,
+      "text": "정부는 예산에 변경을 가할 필요가 있을 때에는 추가경정예산안을 편성하여 국회에 제출할 수 있다."
+    },
+    {
+      "id": 10,
+      "text": "누구든지 체포 또는 구속을 당한 때에는 적부의 심사를 법원에 청구할 권리를 가진다."
+    },
+    {
+      "id": 11,
+      "text": "선거에 관한 경비는 법률이 정하는 경우를 제외하고는 정당 또는 후보자에게 부담시킬 수 없다."
+    },
+    {
+      "id": 12,
+      "text": "모든 국민은 소급입법에 의하여 참정권의 제한을 받거나 재산권을 박탈당하지 아니한다."
+    },
+    {
+      "id": 13,
+      "text": "국무회의는 대통령·국무총리와 15인 이상 30인 이하의 국무위원으로 구성한다."
+    },
+    {
+      "id": 14,
+      "text": "국가는 재해를 예방하고 그 위험으로부터 국민을 보호하기 위하여 노력하여야 한다."
+    },
+    {
+      "id": 15,
+      "text": "형사피고인은 상당한 이유가 없는 한 지체없이 공개재판을 받을 권리를 가진다."
+    },
+    {
+      "id": 16,
+      "text": "대통령은 내란 또는 외환의 죄를 범한 경우를 제외하고는 재직중 형사상의 소추를 받지 아니한다."
+    },
+    {
+      "id": 17,
+      "text": "헌법재판소 재판관의 임기는 6년으로 하며, 법률이 정하는 바에 의하여 연임할 수 있다."
+    },
+    {
+      "id": 18,
+      "text": "언론·출판은 타인의 명예나 권리 또는 공중도덕이나 사회윤리를 침해하여서는 아니된다."
+    },
+    {
+      "id": 19,
+      "text": "언론·출판이 타인의 명예나 권리를 침해한 때에는 피해자는 이에 대한 피해의 배상을 청구할 수 있다."
+    },
+    {
+      "id": 20,
+      "text": "모든 국민의 재산권은 보장된다. 그 내용과 한계는 법률로 정한다."
+    }
+  ],
+  "color": [
+    {
+      "id": 1,
+      "color": "#fff",
+      "bgcolor": "#00bdff"
+    },
+    {
+      "id": 2,
+      "color": "#fd487e",
+      "bgcolor": "#fffdf4"
+    },
+    {
+      "id": 3,
+      "color": "#fff",
+      "bgcolor": "#25cf57"
+    },
+    {
+      "id": 4,
+      "color": "#1e41d1",
+      "bgcolor": "#d2fff9"
+    },
+    {
+      "id": 5,
+      "color": "#935bd8",
+      "bgcolor": "#fbe762"
+    },
+    {
+      "id": 6,
+      "color": "#0ae724",
+      "bgcolor": "#f1fffd"
+    },
+    {
+      "id": 6,
+      "color": "#ff7845",
+      "bgcolor": "#fbfff1"
+    }
+  ]
+}

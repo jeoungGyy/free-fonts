@@ -1,0 +1,78 @@
+.list {
+  clear: left;
+  overflow: hidden;
+  margin-left: -2.33%;
+
+  li {
+    float: left;
+    width: 31%;
+    margin: 40px 0 0 2.33%;
+    padding: 20px;
+    border-top: 1px solid #999;
+
+    a {
+      display: block;
+
+      h3 {
+        font-size: 1.05rem;
+        color: #6f3685;
+      }
+
+      .flex {
+        position: relative;
+        margin-top: 2px;
+        padding-right: 70px;
+        font-size: 0.9rem;
+        color: #777;
+
+        .left {
+          margin-right: auto;
+        }
+        .right {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+      }
+
+      &:hover {
+        h3 {
+          span {
+            border-bottom: 1px solid #6f3685;
+          }
+        }
+      }
+    }
+
+    .areas {
+      margin-top: 30px;
+
+      p {
+        font-size: 2rem;
+        line-height: 3rem;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 900px) {
+  .list {
+    margin-left: -2%;
+
+    li {
+      width: 48%;
+      margin-left: 2%;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .list {
+    margin-left: 0%;
+
+    li {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}

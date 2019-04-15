@@ -1,0 +1,105 @@
+header {
+  display: flex;
+  padding: 30px 20px 0;
+  background-color: #ff5252;
+
+  h1 {
+    display: flex;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #fff;
+    align-items: center;
+  }
+
+  .etc {
+    display: flex;
+    padding-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    align-items: center;
+
+    button {
+      padding: 2px 6px;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 4px;
+
+      i {
+        vertical-align: middle;
+
+        svg {
+          width: 22px;
+          height: auto;
+        }
+      }
+      span {
+        display: inline-block;
+        font-size: 0.86rem;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .layer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9001;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    .area {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      width: 500px;
+      margin: -256px 0 0 -250px;
+      padding: 20px 20px 50px;
+      text-align: center;
+      background-color: #ff5252;
+      border-radius: 10px;
+
+      .bg {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        .email {
+          margin-top: 10px;
+          font-size: 0.9rem;
+        }
+
+        h5 {
+          font-size: 1rem;
+        }
+
+        .su {
+          margin-top: 30px;
+          text-align: left;
+
+          p {
+            font-size: 0.88rem;
+          }
+          li {
+            a {
+              display: inline-block;
+              font-size: 0.88rem;
+            }
+          }
+        }
+      }
+
+      svg {
+        display: inline-block;
+        width: 180px;
+        height: auto;
+        margin-top: 40px;
+        color: #ffeb3b;
+      }
+    }
+  }
+}
