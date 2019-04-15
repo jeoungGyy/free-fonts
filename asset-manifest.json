@@ -1,13 +1,15 @@
 {
-  "main.css": "/free-fonts/static/css/main.5061499a.chunk.css",
-  "main.js": "/free-fonts/static/js/main.4296e0a9.chunk.js",
-  "main.js.map": "/free-fonts/static/js/main.4296e0a9.chunk.js.map",
+  "main.css": "/free-fonts/static/css/main.7b9f4516.chunk.css",
+  "main.js": "/free-fonts/static/js/main.d6ca1e89.chunk.js",
+  "main.js.map": "/free-fonts/static/js/main.d6ca1e89.chunk.js.map",
   "runtime~main.js": "/free-fonts/static/js/runtime~main.e7721dbf.js",
   "runtime~main.js.map": "/free-fonts/static/js/runtime~main.e7721dbf.js.map",
-  "static/js/2.5e7a94d1.chunk.js": "/free-fonts/static/js/2.5e7a94d1.chunk.js",
-  "static/js/2.5e7a94d1.chunk.js.map": "/free-fonts/static/js/2.5e7a94d1.chunk.js.map",
+  "static/css/2.c96109ab.chunk.css": "/free-fonts/static/css/2.c96109ab.chunk.css",
+  "static/js/2.a0060353.chunk.js": "/free-fonts/static/js/2.a0060353.chunk.js",
+  "static/js/2.a0060353.chunk.js.map": "/free-fonts/static/js/2.a0060353.chunk.js.map",
   "index.html": "/free-fonts/index.html",
-  "precache-manifest.2e1ef82ada4b3fec4bc75dddb1b9c50e.js": "/free-fonts/precache-manifest.2e1ef82ada4b3fec4bc75dddb1b9c50e.js",
+  "precache-manifest.a44759e92fbeeaa5ecea0e38005403f2.js": "/free-fonts/precache-manifest.a44759e92fbeeaa5ecea0e38005403f2.js",
   "service-worker.js": "/free-fonts/service-worker.js",
-  "static/css/main.5061499a.chunk.css.map": "/free-fonts/static/css/main.5061499a.chunk.css.map"
+  "static/css/2.c96109ab.chunk.css.map": "/free-fonts/static/css/2.c96109ab.chunk.css.map",
+  "static/css/main.7b9f4516.chunk.css.map": "/free-fonts/static/css/main.7b9f4516.chunk.css.map"
 }
