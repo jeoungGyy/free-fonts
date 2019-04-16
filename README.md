@@ -16,4 +16,3 @@
 - react-icons-kit
 - rc-slider
 - react-color
-- test
