@@ -6,7 +6,7 @@ import Page from '../routes/Page';
 class pageRouter extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Route exact path="/" component={Front} />
         <Route path="/page" component={Page} />
       </Router>
