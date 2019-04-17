@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/free-fonts/static/js/runtime~main.e7721dbf.js"
   },
   {
-    "revision": "c6e5d02e58a3206580a9",
-    "url": "/free-fonts/static/js/main.231701d9.chunk.js"
+    "revision": "d9d3bb96ff04099fa1ef",
+    "url": "/free-fonts/static/js/main.bf7cba3d.chunk.js"
   },
   {
     "revision": "d7056ff15114d1353ca3",
     "url": "/free-fonts/static/js/2.a0060353.chunk.js"
   },
   {
-    "revision": "c6e5d02e58a3206580a9",
+    "revision": "d9d3bb96ff04099fa1ef",
     "url": "/free-fonts/static/css/main.c6a3991e.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/free-fonts/static/css/2.c96109ab.chunk.css"
   },
   {
-    "revision": "d969796e2f8c5b03a4e0693201670069",
+    "revision": "1cc8432bdc3d85b91b7d8ffb932a895e",
     "url": "/free-fonts/index.html"
   }
 ];
