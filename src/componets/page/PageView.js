@@ -94,6 +94,10 @@ class PageView extends Component {
     });
   };
 
+  handleChange = e => {
+    this.setState({text: e.target.value});
+  };
+
   handleChangeColor = (color, identity) => {
     this.setState({
       [identity]: color.hex
@@ -146,7 +150,8 @@ class PageView extends Component {
       handleAlign,
       handleSliderChange,
       handleChangeColor,
-      handleRandomColor
+      handleRandomColor,
+      handleChange
     } = this;
     const {
       font,
@@ -187,6 +192,7 @@ class PageView extends Component {
             html={text} // innerHTML of the editable div
             tagName="p" // Use a custom HTML tag (uses a div by default)
             className="edit"
+            onChange={handleChange}
             style={{
               color: color,
               fontFamily: font,

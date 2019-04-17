@@ -57,6 +57,15 @@ class Header extends Component {
                     </li>
                     <li>
                       <a
+                        href="https://hangeul.naver.com/2017/nanum"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        - <span>네이버 한글한글아름답게</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
                         href="http://youngkang.me/hangul-webfont-showcase/"
                         target="_blank"
                         rel="noopener noreferrer"
